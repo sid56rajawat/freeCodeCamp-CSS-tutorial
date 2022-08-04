@@ -1,0 +1,38 @@
+
+/* .title{
+    color: red;
+}
+.subtitle{
+    color: blue;
+}
+#contact-us{
+    color:green;
+} */
+
+/* Precedence of styles : Inline > ID > Class > element
+h2{
+    color:red;
+}
+.subtitle{
+    color:blue;
+}
+#about-me{
+    color: green;
+}*/
+
+/* Pseudo-selectors*/
+#about-me{
+    color:blueviolet;
+}
+#about-me:hover{
+    color: brown;
+}
+li:nth-child(2n){
+    color: powderblue;
+}
+#google-link:link{
+    color: green;
+}
+#google-link:visited{
+    color: red;
+}
