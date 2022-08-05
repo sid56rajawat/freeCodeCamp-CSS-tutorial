@@ -1,4 +1,3 @@
-
 /* .title{
     color: red;
 }
@@ -20,7 +19,7 @@ h2{
     color: green;
 }*/
 
-/* Pseudo-selectors*/
+/* Pseudo-selectors
 #about-me{
     color:blueviolet;
 }
@@ -35,4 +34,40 @@ li:nth-child(2n){
 }
 #google-link:visited{
     color: red;
+}*/
+
+/* Advanced Selectors 
+h1 ~ p {
+  ~ : all <p> elements followed by the <h1> element(under the same parent)
+  color: yellowgreen;
 }
+
+textarea + button {
+  + : only one <button> element immediately followed by the <textarea> element
+  border: 2px solid steelblue;
+}
+
+ul > li{
+    > : every <li> inside every <ul>
+    but <ul> must be the immediate parent of <li>
+    color:magenta;
+}
+
+table td{
+    we know that td cannot be and immediate successor of table
+    but still we can change style of every td which has table as asn ancestor
+    color: blue;
+}
+*/
+
+/* Attribute Selectors
+h2[class = "subtitle"]{
+    color:tomato;
+}
+img[src ^= "../img/"]{
+    border: 4px solid pink;
+}
+h2[class |= "article"]{
+    background: green;
+}*/
+
