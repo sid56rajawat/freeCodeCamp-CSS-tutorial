@@ -1,73 +1,25 @@
-/* .title{
-    color: red;
+body{
+    /* background: #fbf7f3; */
+    /* background: url('https://ik.imagekit.io/theartling/prod/original_images/Wassily_Kandinsky_Composition_8_1923.__2018_Artists_Rights_Society_ARS_New.jpg?tr=w-825,h-600,c-at_max,bg-FFFFFF'); */
+    /* background: url('../img/img-2.jpg'); */
+    /* background-image: url('../img/img-2.jpg'); */
+    background-color: #fbf7f3;
 }
+
+#title{
+    color: #4c9e78;
+}
+
 .subtitle{
-    color: blue;
-}
-#contact-us{
-    color:green;
-} */
-
-/* Precedence of styles : Inline > ID > Class > element
-h2{
-    color:red;
-}
-.subtitle{
-    color:blue;
-}
-#about-me{
-    color: green;
-}*/
-
-/* Pseudo-selectors
-#about-me{
-    color:blueviolet;
-}
-#about-me:hover{
-    color: brown;
-}
-li:nth-child(2n){
-    color: powderblue;
-}
-#google-link:link{
-    color: green;
-}
-#google-link:visited{
-    color: red;
-}*/
-
-/* Advanced Selectors 
-h1 ~ p {
-  ~ : all <p> elements followed by the <h1> element(under the same parent)
-  color: yellowgreen;
+    color: rgb(233, 143, 7);
 }
 
-textarea + button {
-  + : only one <button> element immediately followed by the <textarea> element
-  border: 2px solid steelblue;
+#image-division{
+    height: 400px;
+    width: 70%;
+    /* background: url('../img/img-2.jpg') no-repeat ; */
+    background: url('../img/img-2.jpg');
+    background-repeat: no-repeat;
+    background-color: steelblue;
+    background-size: contain;
 }
-
-ul > li{
-    > : every <li> inside every <ul>
-    but <ul> must be the immediate parent of <li>
-    color:magenta;
-}
-
-table td{
-    we know that td cannot be and immediate successor of table
-    but still we can change style of every td which has table as asn ancestor
-    color: blue;
-}
-*/
-
-/* Attribute Selectors
-h2[class = "subtitle"]{
-    color:tomato;
-}
-img[src ^= "../img/"]{
-    border: 4px solid pink;
-}
-h2[class |= "article"]{
-    background: green;
-}*/
-
