@@ -1,25 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Montserrat:wght@100;400;600;700&family=Roboto&display=swap');
+
 body{
     /* background: #fbf7f3; */
     /* background: url('https://ik.imagekit.io/theartling/prod/original_images/Wassily_Kandinsky_Composition_8_1923.__2018_Artists_Rights_Society_ARS_New.jpg?tr=w-825,h-600,c-at_max,bg-FFFFFF'); */
     /* background: url('../img/img-2.jpg'); */
     /* background-image: url('../img/img-2.jpg'); */
     background-color: #fbf7f3;
+    font-size: 1.5vw;
+    /* background: linear-gradient(to bottom, #fbf7f3,#ffffff); */
+    font-family: 'Roboto',sans-serif;
 }
 
 #title{
     color: #4c9e78;
+    font-size: 3vw;
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: 150; */
 }
 
 .subtitle{
     color: rgb(233, 143, 7);
+    font-family: 'Montserrat', sans-serif;
 }
 
 #image-division{
-    height: 400px;
-    width: 70%;
+    height: 400pt;
+    width: 70vw;
     /* background: url('../img/img-2.jpg') no-repeat ; */
-    background: url('../img/img-2.jpg');
+    /* background: url('../img/img-2.jpg'); */
+    /* background-repeat: no-repeat; */
+
+    /* Gradient */
+    /* background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red); */
+    /* background: linear-gradient(315deg, #c5224b , #edad44 , #e4cd8c ); */
+    /* background: radial-gradient(circle, #ffffff,#e4cd8c , #edad44,  #c5224b); */
+
+    /* Image with gradient */
+    background-image: url('../img/om.png'), radial-gradient(circle, #ffffff,#e4cd8c , #edad44,  #c5224b);
     background-repeat: no-repeat;
-    background-color: steelblue;
-    background-size: contain;
+    background-position: center;
+
+}
+
+.link{
+    text-decoration: wavy underline;
+}
+.link:hover{
+    text-decoration: dotted overline;
+}
+
+.para-text{
+    text-transform: capitalize;
+    text-align: justify;
+
+    /* font-family: "Times New Roman", monospace, serif; */
+    
+}
+
+.italics{
+    font-style:oblique;
 }
