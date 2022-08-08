@@ -39,6 +39,8 @@ body{
     background-image: url('../img/om.png'), radial-gradient(circle, #ffffff,#e4cd8c , #edad44,  #c5224b);
     background-repeat: no-repeat;
     background-position: center;
+    border: 10px solid #ff9d00;
+    /* float: right; */
 
 }
 
@@ -46,7 +48,7 @@ body{
     text-decoration: wavy underline;
 }
 .link:hover{
-    text-decoration: dotted overline;
+    text-decoration: dotted line-through;
 }
 
 .para-text{
@@ -59,4 +61,22 @@ body{
 
 .italics{
     font-style:oblique;
+}
+
+#about-me-image{
+    /* height: 64vw;
+    height: 36vw;  */
+    width: 60%;
+
+    border: 3px solid #4c9e78;
+    /* padding: 10px 20px 40px 80px; */
+    /* margin: 80px 40px; */
+    float: right;
+    margin: 0 40px;
+}
+
+#table1{
+    /* display: none
+    display: inline; */
+    display: inline-block;
 }
