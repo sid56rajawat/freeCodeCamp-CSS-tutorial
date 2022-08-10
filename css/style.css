@@ -40,6 +40,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     border: 10px solid #ff9d00;
+    margin: 10px;
     /* float: right; */
 
 }
@@ -79,4 +80,27 @@ body{
     /* display: none
     display: inline; */
     display: inline-block;
+}
+
+.container{
+    background-color: #ffffff;
+    height: 300px;
+    display: flex;
+    flex-direction:row;
+    /* flex-wrap:wrap; */
+    /* justify-content:space-between; */
+    /* align-items:baseline; */
+    justify-content: center;
+    align-items: center;
+}
+
+.container-item{
+    background: rgb(36,130,39);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+
+    width: 70px;
+    line-height: 50px;
+    margin: 10px;
 }
