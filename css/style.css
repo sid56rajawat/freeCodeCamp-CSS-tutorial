@@ -91,7 +91,7 @@ body{
     /* flex-wrap:wrap; */
     /* justify-content:space-between; */
     /* align-items:baseline; */
-    justify-content: center;
+
     align-items: center;
 }
 
@@ -133,4 +133,52 @@ body{
     width: 70px;
     line-height: 50px;
     margin: 10px;
+}
+
+.services{
+    margin-top: auto;
+}
+
+.about-me{
+    display: flexbox;
+}
+
+.form-input{
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.contact-us-form{
+    margin: 10px;
+}
+
+.submit-button{
+    display: block;
+    padding: 7px 10px;
+    background-color:rgb(89, 150, 255);
+    color: white;
+    border: none;
+    font-family: 'Lato',sans-serif;
+    font-size:medium;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: background-color, border-bottom, border-left 500ms ease 300ms;
+    /* transition: padding 300ms; */
+    transition: transform 800ms ease;
+}
+.submit-button:hover{
+    background-color: rgb(121, 169, 253);
+    /* padding: 8px 12px; */
+
+    /* linear transform */
+    /* transform: translate(1px, -2px); */
+    /* transform: scale(1.075); */
+
+    /* rotational transform */
+    transform: rotate(-45deg);
+    /* transform: skewX(4deg); */
+    /* transform: matrix(1, 0.04, 0.04, 1, 4, -4); */
+
+    border-bottom: 2px solid rgb(61, 61, 61);
+    border-left: 1px solid rgb(61, 61, 61);
 }
