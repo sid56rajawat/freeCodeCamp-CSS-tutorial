@@ -175,10 +175,37 @@ body{
     /* transform: scale(1.075); */
 
     /* rotational transform */
-    transform: rotate(-45deg);
+    /* transform: rotate(3.14rad); */
     /* transform: skewX(4deg); */
-    /* transform: matrix(1, 0.04, 0.04, 1, 4, -4); */
+    /* transform: skewX(40deg); */
+    /* transform: matrix(1, 0.00, 0.69, 1, 0, 0); */
 
     border-bottom: 2px solid rgb(61, 61, 61);
     border-left: 1px solid rgb(61, 61, 61);
+}
+
+@keyframes red-to-black{
+    0%{
+        background: red;
+        transform: translate(0px,0px);
+    }
+    50%{
+        background: yellow;
+        transform: translate(10px,10px);
+    }
+    100%{
+        background: black;
+        transform: translate(20px,20px);
+    }
+}
+
+#about-me-heading{
+    /* animation-name: red-to-black;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: -2s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse; */
+
+    animation: red-to-black 4s linear 5s 2 alternate-reverse both;
 }
